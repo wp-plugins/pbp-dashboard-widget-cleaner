@@ -5,7 +5,7 @@ Plugin Name: PBP Dashboard widget cleaner
 Plugin URI: http://projoktibangla.net
 Description: This plugin Delete Wordpress Dashboard Widget
 Author: projoktibangla
-Version: 1.0
+Version: 1.1
 Author URI: http://projoktibangla.net
 */
 /*
@@ -26,16 +26,21 @@ Copyright (C) 2013  projoktibangla
 */
 
 
-add_action('admin_init', 'rw_remove_dashboard_widgets');
-    function rw_remove_dashboard_widgets() {
-    remove_meta_box('dashboard_right_now', 'dashboard', 'normal'); // right now
-    remove_meta_box('dashboard_recent_comments', 'dashboard', 'normal'); // recent comments
-    remove_meta_box('dashboard_incoming_links', 'dashboard', 'normal'); // incoming links
-    remove_meta_box('dashboard_plugins', 'dashboard', 'normal'); // plugins
-     
-    remove_meta_box('dashboard_quick_press', 'dashboard', 'normal'); // quick press
-    remove_meta_box('dashboard_recent_drafts', 'dashboard', 'normal'); // recent drafts
-    remove_meta_box('dashboard_primary', 'dashboard', 'normal'); // wordpress blog
-    remove_meta_box('dashboard_secondary', 'dashboard', 'normal'); // other wordpress news
-    }
+function remove_dashboard_widgets() {
+	global $wp_meta_boxes;
+
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_drafts']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_welcome']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+
+}
+add_action('wp_dashboard_setup', 'remove_dashboard_widgets' );
+remove_action('welcome_panel', 'wp_welcome_panel');
 ?>
