@@ -13,7 +13,7 @@ Change & customize your dashboard & login page easily.
 
 Change & customize your dashboard & login page easily.
 
-Features:
+= Features =
 * Hide Screen Options Tab.
 * Hide Help Tab.
 * Remove Admin Bar ( Excerpt Admin ).
