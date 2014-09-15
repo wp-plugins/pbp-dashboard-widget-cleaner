@@ -7,25 +7,26 @@ Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Change & Customize your dashboard & login page easily.
+Change & customize your dashboard & login page easily.
 
 == Description ==
 
-Change & Customize your dashboard & login page easily.
+Change & customize your dashboard & login page easily.
 
-* Hide Screen Options Tab
-* Hide Help Tab
-* Remove Admin Bar ( Excerpt Admin )
-* Custom Login Logo
-* Custom Message on Login Page
-* Custom Message on Registration Page
-* Remove WordPress Logo
-* Remove About WordPress Link
-* Remove WordPress.org Link
-* Remove Documentation Link
-* Remove Support Forums Link
-* Remove Feedback Link
-* Remove Dashboard widget
+Features:
+* Hide Screen Options Tab.
+* Hide Help Tab.
+* Remove Admin Bar ( Excerpt Admin ).
+* Custom Login Logo.
+* Custom Message on Login Page.
+* Custom Message on Registration Page.
+* Remove WordPress Logo.
+* Remove About WordPress Link.
+* Remove WordPress.org Link.
+* Remove Documentation Link.
+* Remove Support Forums Link.
+* Remove Feedback Link.
+* Remove Dashboard widget.
 
 
 Created By: www.projoktibangla.net
@@ -34,16 +35,16 @@ Created By: www.projoktibangla.net
 
 = Automatic =
 
-* In the admin panel under plugins page, click Add New
-* go to Upload tab
-* browse "PBP Dashboard Changer" and click install now
-* Click Active plugin
+* In the admin panel under plugins page, click Add New.
+* Go to Upload tab.
+* Browse "PBP Dashboard Changer" and click install now.
+* Click Active plugin.
 * Go to settings => "PBP DB Changer" and customize your settings.
 
 = Manual =
 
 * Extract zip file to your wp-content/plugins directory.
-* In the admin panel under plugins, activate "PBP Dashboard Changer".
+* In the admin panel under plugins, click active "PBP Dashboard Changer".
 * Go to settings => "PBP DB Changer" and customize your settings.
 
 == Frequently Asked Questions ==
