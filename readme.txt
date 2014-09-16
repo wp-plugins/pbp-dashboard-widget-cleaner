@@ -29,7 +29,7 @@ Change & customize your dashboard & login page easily.
 * Remove Dashboard widget.
 
 
-Created By: www.projoktibangla.net
+Created By: http://goo.gl/1EqwTY
 
 == Installation ==
 
