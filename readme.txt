@@ -63,6 +63,9 @@ Some Bug Fixed
 = 2.0 =
 Added New Feature
 
+= 2.1 =
+Little Update
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -73,3 +76,6 @@ Some Bug Fixed
 
 = 2.0 =
 Added New Feature
+
+= 2.1 =
+Little Update
