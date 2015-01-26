@@ -4,7 +4,7 @@
 	Plugin Name: PBP Dashboard Changer
 	Plugin URI: http://projoktibangla.net
 	Description: Change & Customize your dashboard & login page easily.
-	Version: 2.0
+	Version: 2.1
 	Author: projoktibangla	
 	Author URI: http://projoktibangla.net
 	License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html

@@ -2,8 +2,8 @@
 Contributors: projoktibangla
 Tags: wordpress, customize, dashboard, customize dashboard, wp dahboard customize, wp dashboard customizer, dashboard changer.
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 2.0
+Tested up to: 4.1
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
