@@ -2,8 +2,8 @@
 Contributors: projoktibangla
 Tags: wordpress, customize, dashboard, customize dashboard, wp dahboard customize, wp dashboard customizer, dashboard changer.
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 2.1
+Tested up to: 4.2
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,30 +52,39 @@ This plugin Change & Customize your dashboard & login page easily.
 
 Any problem, just mail us. email- projoktibangla@gmail.com 
 
+== Screenshot ==
+1. Plugin setting page
 
 == Changelog ==
-= 1.0 =
-First Release
 
-= 1.1 =
-Some Bug Fixed
+= 2.2 =
+Compitable with WP 4.2 version
+
+= 2.1 =
+Little Update
 
 = 2.0 =
 Added New Feature
 
-= 2.1 =
-Little Update
+= 1.1 =
+Some Bug Fixed
+
+= 1.0 =
+First Release
 
 == Upgrade Notice ==
 
-= 1.0 =
-First Release
+= 2.2 =
+Compitable with WP 4.2 version
 
-= 1.1 =
-Some Bug Fixed
+= 2.1 =
+Little Update
 
 = 2.0 =
 Added New Feature
 
-= 2.1 =
-Little Update
+= 1.1 =
+Some Bug Fixed
+
+= 1.0 =
+First Release
