@@ -52,7 +52,7 @@ This plugin Change & Customize your dashboard & login page easily.
 
 Any problem, just mail us. email- projoktibangla@gmail.com 
 
-== Screenshot ==
+== Screenshots ==
 1. Plugin setting page
 
 == Changelog ==
